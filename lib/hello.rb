@@ -5,6 +5,8 @@ def hello_t(list)
     yield list[i]
     i = i + 1
   end
+  
+  list
 end
 
 # call your method here!
