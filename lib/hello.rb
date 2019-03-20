@@ -1,15 +1,13 @@
 def hello_t(list)
   i = 0
   
-  while i < array.size
-    yield array[i]
+  while i < list.size
+    yield list[i]
     i = i + 1
   end
 end
 
 # call your method here!
-
-["Tim", "Tom", "Jim"]
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
   if name.start_with?("T")
